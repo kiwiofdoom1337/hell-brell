@@ -1,6 +1,6 @@
 let info = document.getElementById('info');
 /* let btn = document.getElementById('btn') */
-let time = 5;
+let time = 100;
 let timers = [time, time, time, time, time, time, time, time, time];
 let txtTimerNum = 3;
 let txtTimer = txtTimerNum;
