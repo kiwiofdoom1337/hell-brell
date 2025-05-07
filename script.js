@@ -1,5 +1,5 @@
 let info = document.getElementById('info');
-/* let btn = document.getElementById('btn') */
+let btn = document.getElementById('btn')
 let time = 100;
 let timers = [time, time, time, time, time, time, time, time, time];
 let txtTimerNum = 3;
@@ -8,9 +8,9 @@ let txtTimerIntervalId = null;
 let intervalIds = [null, null, null, null, null, null, null, null, null]
 info.innerHTML = '';
 
-/* btn.addEventListener('click', () => {
+btn.addEventListener('click', () => {
 	info.innerHTML = '';
-}) */
+})
 
 for(let i = 0; i < 9; i++) {
 	let boxy = document.getElementById(`square${[i + 1]}`);
