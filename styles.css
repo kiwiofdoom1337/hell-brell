@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
 
 :root {
   --yellow: #fff200;
   --orange: #ff7f27;
   --black: #000000;
+}
+
+body {
+  height: 100vh;
+  background: #5c55db;
+  
 }
 
 .square {
@@ -36,23 +45,68 @@
 }
 
 .info {
-  width: 160px;
+  width: 500px;
   height: 50px;
   position: absolute;
   top: -20px;
-  right: -110px;
+  right: -450px;
   font-size: 2rem;
   display: flex;
   align-items: center;
-  white-space: no-wrap;
+  color: white;
 }
 
 .btn {
   position: absolute;
-  top: 35px;
-  right: -80px;
+  top: 15px;
+  left: 10px;
   width: 100px;
-  height: 30px;
+  height: 40px;
+  color: white;
+  background-color: #070094;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0px 3px black;
+}
+
+.btn-two {
+  position: absolute;
+  top: 15px;
+  left: 130px;
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #070094;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 0.85rem;
+  box-shadow: 0px 3px black;
+}
+
+.btn-three {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #780487;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0px 3px black;
+}
+
+.btn:active,
+.btn-two:active,
+.btn-three:active {
+  background-color: #05014f;
+  transform: translateY(4px);
+  box-shadow: none;
 }
 
 .yellow {
